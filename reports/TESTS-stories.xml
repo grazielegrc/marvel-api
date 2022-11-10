@@ -1,0 +1,28 @@
+<testsuite name="stories.Listing stories" tests="1" errors="0" failures="0" skipped="0" time="1.427615" timestamp="2022-11-10T10:47:35.645721" hostname="lnb019742cps"><testcase classname="stories.Listing stories" name="List stories with limit equal to 5" status="passed" time="1.427615"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive
+  Scenario: List stories with limit equal to 5
+    Given I have an access token ... passed in 0.000s
+    When I perform a GET operation for "/v1/public/stories" ... passed in 1.424s
+    Then I verify the response code is "200" ... passed in 0.001s
+    And it was returned only 5 registers ... passed in 0.002s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Title 1:  Investigating the murder of a teenage girl, Cage suddenly learns that a three-way gang war is under way for control of the turf
+
+Title 2:  In the wake of September 11th, the world watched as firefighters, police officers and EMT workers selflessly risked their lives
+
+Title 3:  Ordinary New York City cop Frankie &QUOT;Gunz&QUOT; Gunzer now has a new call to duty Ñ not just to uphold the law, but to save 
+
+Title 4:  In this thought-provoking anthology, a world-class collection of top comic-book creators from around the globe presents a series
+
+Title 5:  Interior #11
+
+
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,57 @@
+<testsuite name="characters.Searching characters" tests="4" errors="0" failures="0" skipped="0" time="1.485716" timestamp="2022-11-10T10:47:34.209203" hostname="lnb019742cps"><testcase classname="characters.Searching characters" name="Search by Agents of Atlas" status="passed" time="0.382592"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive
+  Scenario: Search by Agents of Atlas
+    Given I have an access token ... passed in 0.000s
+    When I perform a GET operation for "/v1/public/characters/1011198" ... passed in 0.381s
+    Then I verify the response code is "200" ... passed in 0.001s
+    And it was returned the "Agents of Atlas" character ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="characters.Searching characters" name="Search by Agent Brand" status="passed" time="0.365918"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive
+  Scenario: Search by Agent Brand
+    Given I have an access token ... passed in 0.000s
+    When I perform a GET operation for "/v1/public/characters/1011297" ... passed in 0.364s
+    Then I verify the response code is "200" ... passed in 0.001s
+    And it was returned the "Agent Brand" character ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="characters.Searching characters" name="Search by Balder" status="passed" time="0.354615"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive
+  Scenario: Search by Balder
+    Given I have an access token ... passed in 0.000s
+    When I perform a GET operation for "/v1/public/characters/1011456" ... passed in 0.353s
+    Then I verify the response code is "200" ... passed in 0.001s
+    And it was returned the "Balder" character ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="characters.Searching characters" name="Search by a nonexistent character" status="passed" time="0.382591"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @negative
+  Scenario: Search by a nonexistent character
+    Given I have an access token ... passed in 0.000s
+    When I perform a GET operation for "/v1/public/characters/1111111" ... passed in 0.381s
+    Then I verify the response code is "404" ... passed in 0.001s
+    And it was returned the message: "We couldn't find that character" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

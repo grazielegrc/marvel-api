@@ -1,0 +1,5 @@
+# exclude python cache and virtual environment
+marvel-api/venv
+marvel-api/__pycache__
+marvel-api/.idea
+.idea/
