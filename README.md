@@ -1,6 +1,6 @@
 ## Introduction
 
-This project was created in order to testing the Marvel API using Python and Behave framework. To further information on how to use this API, please visit the website: https://developer.marvel.com/documentation/getting_started 
+This project has been created in order to testing the Marvel API using Python and Behave framework. To further information on how to use this API, please visit the website: https://developer.marvel.com/documentation/getting_started 
 
 ## Requirements
 - [virtualenv](https://docs.python.org/3.8/library/venv.html) 20.10.0+
@@ -15,13 +15,13 @@ Creating a virtual environment using python3 location. Remember to retrieve the 
 virtualenv -p /usr/bin/python3 venv
 ```
 
-Activating the new virtual environment
+Activating the new virtual environment:
 
 ```bash
 source venv/bin/activate
 ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the generator.
+Use the package manager pip to install the libs:
 
 ```bash
 pip install -r requirements.txt
@@ -29,7 +29,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the command below to run all tests:
+First of all, open the *params.py* file under *utils* folder and inform your API keys.
+
+After that, run the command below to run all tests:
 
 
 ```bash
@@ -56,7 +58,8 @@ To generate json report:
 behave -f json.pretty
 ```
 
-To generate Allure report. First install Allure in your computer, see here: https://docs.qameta.io/allure-report/#_installing_a_commandline
+To generate Allure report. First, its necessary to install Allure in your computer, follow here: https://docs.qameta.io/allure-report/#_installing_a_commandline
+
 After that, run:
 
 ```bash
