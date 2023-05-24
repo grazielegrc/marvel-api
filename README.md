@@ -1,6 +1,6 @@
 ## Behave API Automation Demo
 
-This project has been created in order to testing the Marvel API using Python and Behave framework. To further information on how to use this API, please visit the website: https://developer.marvel.com/documentation/getting_started 
+This project has been created in order to testing the Marvel API using Python and Behave framework. To further information on how to use this API and generate the API Key, please visit: https://developer.marvel.com/documentation/getting_started 
 
 ### Pre-requisites
 - [virtualenv](https://docs.python.org/3.8/library/venv.html) 20.10.0+
