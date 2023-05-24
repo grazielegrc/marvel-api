@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 First of all, open the *params.py* file under *utils* folder and inform your API keys.
 
-After that, run the command below to run all tests:
+After installing Allure, execute the command below to run all tests:
 
 
 ```bash
