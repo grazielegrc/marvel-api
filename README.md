@@ -51,14 +51,16 @@ To generate xml report:
 behave --junit
 ```
 
-To generate json report:
+#### To generate json report:
 
 
 ```bash
 behave -f json.pretty
 ```
 
-To generate Allure report. First, its necessary to install Allure in your computer, follow here: https://docs.qameta.io/allure-report/#_installing_a_commandline
+
+#### To generate Allure report:
+First, its necessary to install Allure in your computer, follow here: https://docs.qameta.io/allure-report/#_installing_a_commandline
 
 After that, run:
 
