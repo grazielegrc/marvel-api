@@ -38,13 +38,13 @@ After that, run the command below to run all tests:
 behave
 ```
 
-To run with tags:
+#### To run with tags:
 
 
 ```bash
 behave --tags=stories
 ```
-To generate xml report:
+#### To generate xml report:
 
 
 ```bash
