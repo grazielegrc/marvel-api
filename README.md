@@ -2,12 +2,12 @@
 
 This project has been created in order to testing the Marvel API using Python and Behave framework. To further information on how to use this API, please visit the website: https://developer.marvel.com/documentation/getting_started 
 
-## Pre-requisites
+### Pre-requisites
 - [virtualenv](https://docs.python.org/3.8/library/venv.html) 20.10.0+
 - [python](https://www.python.org/downloads/release/python-3810/) 3.8.10+
 - [pip](https://pypi.org/project/pip/) 21.3.1+
 
-## Installation
+### Installation
 
 Creating a virtual environment using python3 location. Remember to retrieve the current python location to ensure the correct version.
 
@@ -27,7 +27,7 @@ Use the package manager pip to install the libs:
 pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 
 First of all, open the *params.py* file under *utils* folder and inform your API keys.
 
