@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 First of all, open the *params.py* file under *utils* folder and inform your API keys.
 
-After installing Allure, execute the command below to run all tests:
+After that, execute the command below to run all tests:
 
 
 ```bash
@@ -62,7 +62,7 @@ behave -f json.pretty
 #### To generate Allure report:
 First, its necessary to install Allure in your computer, follow here: https://docs.qameta.io/allure-report/#_installing_a_commandline
 
-After that, run:
+After installing Allure, run:
 
 ```bash
 behave -f allure_behave.formatter:AllureFormatter -o reports/my_allure
